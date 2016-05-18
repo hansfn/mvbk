@@ -1,0 +1,32 @@
+/*
+Theme Name: 	Molde VBK
+Theme URI: 	http://home.himolde.no/~nordhaug/wp/mvbk
+Description:  	A Twenty Sixteen Child theme for MVBK homepage
+Template:     	twentysixteen
+Author: 	Hans Fredrik Nordhaug
+Author URI: 	http://home.himolde.no/~nordhaug/
+Version: 	1.0.0
+Text Domain: 	mvbk
+License: 	GNU General Public License v2 or later
+License URI: 	http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import url("../twentysixteen/style.css");
+
+/* =Theme customization starts here
+ * -------------------------------------------------------------- */
+
+h1, h2,
+.entry-title a {
+	color: #C30078;
+}
+
+
+/**
+ * 14.1 - >= 710px
+ */
+@media screen and (min-width: 44.375em) {
+	div.header-image img {
+		width: 50%;
+	}
+}
