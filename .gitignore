@@ -4,3 +4,9 @@ wp-config.php
 wp-content/languages
 wp-content/uploads
 wp-content/updraft
+wp-content/upgrade/*
+wp-content/backup-db/*
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+wp-content/cache/*
+wp-content/cache/supercache/*
